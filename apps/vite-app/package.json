@@ -1,0 +1,23 @@
+{
+  "name": "vite-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "single-spa-vue": "^2.2.0",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "typescript": "^4.1.3",
+    "vite": "^2.1.5",
+    "vue-tsc": "^0.0.24"
+  },
+  "singleApp": {
+    "entry": "http://localhost:8083/vite-app/"
+  }
+}
